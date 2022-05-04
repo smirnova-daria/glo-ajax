@@ -6,10 +6,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<script src="script.js" defer></script>
 </head>
 
 <body>
-
+	<form action="#">
+		<p>Это конвертер валют
+			<ol>
+				<li>Введите сумму в первое поле</li>
+				<li>Выберите валюту, из которой Вы хотите конвертировать эту сумму</li>
+				<li>Выберите валюту, в которую будет конвертирована Ваша введенная сумма</li>
+				<li>Нажмите кнопку "Конвертировать"</li>
+				<li>Конвертированная сумма будет выведена во втором поле</li>
+			</ol>
+		</p>
+		<input type="number" name="amount" id="amount" required>
+		<select name="curSymbolFrom" id="curSymbolFrom">
+			<option value="RUB">RUB (Российские рубли)</option>
+			<option value="USD">USD (Доллары США)</option>
+			<option value="EUR">EUR (Евро)</option>
+		</select>
+		<span>&#10154;</span>
+		<select name="curSymbolTo" id="curSymbolTo">
+			<option value="RUB">RUB (Российские рубли)</option>
+			<option value="USD">USD (Доллары США)</option>
+			<option value="EUR">EUR (Евро)</option>
+		</select>
+		<input type="number" name="value" id="value" disabled>
+		<br><br>
+		<input type="submit" value="Конвертировать">
+		<br><br>
+		<div class="progress"></div>
+	</form>
 </body>
 
 </html>
