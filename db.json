@@ -1,5 +1,35 @@
 {
-    "user": "Vlad",
-    "age": 33,
-    "role": "developer"
+  "cars": [
+    {
+      "brand": "bmw",
+      "model": "M5",
+      "price": 151000
+    },
+    {
+      "brand": "mazda",
+      "model": "CX-5",
+      "price": 71000
+    },{
+      "brand": "mercedes",
+      "model": "Maybach",
+      "price": 1100000
+    },{
+      "brand": "kia",
+      "model": "Sportage",
+      "price": 61000
+    },{
+      "brand": "volkswagen",
+      "model": "Taos",
+      "price": 91000
+    },{
+      "brand": "hyundai",
+      "model": "Sonata",
+      "price": 100000
+    },
+    {
+      "brand": "volvo",
+      "model": "V90",
+      "price": 81000
+    }
+  ]
 }
